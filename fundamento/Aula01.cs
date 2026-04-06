@@ -5,10 +5,11 @@ public class Aula01
     
   public void ExecutarAula01() 
     {
+        
      //inicio
      this.ExibirCabecalho();
-
-
+     VariaveisETiposDeDados VariaveisETiposDeDados = new VariaveisETiposDeDados();
+     VariaveisETiposDeDados.Executar();
 
 
      
