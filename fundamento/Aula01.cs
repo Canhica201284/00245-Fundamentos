@@ -1,3 +1,5 @@
+using Fundamentos01;
+
 namespace Fundamentos;
 
 public class Aula01
@@ -10,10 +12,16 @@ public class Aula01
      this.ExibirCabecalho();
      VariaveisETiposDeDados VariaveisETiposDeDados = new VariaveisETiposDeDados();
      VariaveisETiposDeDados.Executar();
+
+     Console.WriteLine();
      //Operadores Aritméticos
      OperadoresAritmeticos operadoresAritmeticos = new OperadoresAritmeticos();
      operadoresAritmeticos.Executar();
 
+    Console.WriteLine();
+//Operadores de Comparação
+     OperadoresComparacao operadoresComparacao = new OperadoresComparacao();
+     operadoresComparacao.Executar();
 
      
 
